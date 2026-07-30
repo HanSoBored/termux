@@ -1,0 +1,25 @@
+
+# Dot Folder
+.zsh
+.ssh
+.npm
+.cache
+.zcompdump
+.local/share
+.local/state
+.termux_authinfo
+.config/gh/hosts.yml
+
+# User Folder
+go
+storage
+workspace
+
+
+# Binary
+.local/bin
+
+# Shell
+.bashrc
+.npmrc
+
