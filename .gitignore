@@ -9,6 +9,7 @@
 .local/state
 .termux_authinfo
 .config/gh/hosts.yml
+.gitconfi
 
 # User Folder
 go
