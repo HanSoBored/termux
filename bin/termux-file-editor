@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Called by TermuxFileReceiver with the received file as the only argument
+exec "${EDITOR:-nvim}" "$1"
