@@ -1,0 +1,7 @@
+# ---- History prefix search ----
+bindkey '^[[A' history-search-backward
+bindkey '^[[B' history-search-forward
+
+# ---- Home/End keys ----
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line

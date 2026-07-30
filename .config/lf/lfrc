@@ -1,0 +1,3 @@
+# permanent delete with Shift+d (D)
+cmd delete-permanent $read -p "Permanently delete \"$fx\"? (y/N) " ans; [ "$ans" = "y" ] && rm -rf $fx
+map D delete-permanent

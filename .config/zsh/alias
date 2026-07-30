@@ -1,0 +1,22 @@
+# ---- Modern replacements ----
+alias ls='eza --icons=always'
+alias cat='bat'
+alias grep='rg'
+alias find='fd'
+
+# ---- Git ----
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl='git log --oneline --graph'
+alias gd='git diff'
+
+# ---- Navigation ----
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ~='cd ~'
+
+# ---- Utils ----
+alias cls='clear'
+alias h='history'
