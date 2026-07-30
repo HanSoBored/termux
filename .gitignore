@@ -4,13 +4,15 @@
 .ssh
 .npm
 .cache
+.gitconfig
 .zcompdump
 .local/share
 .local/state
 .zsh_history
+.config/nvim
+.termux/shell
 .termux_authinfo
 .config/gh/hosts.yml
-.gitconfig
 
 # User Folder
 go
