@@ -7,6 +7,7 @@
 .zcompdump
 .local/share
 .local/state
+.zsh_history
 .termux_authinfo
 .config/gh/hosts.yml
 .gitconfig
