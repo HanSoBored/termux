@@ -3,6 +3,7 @@ source ~/.config/zsh/export
 
 # ---- History ----
 HISTSIZE=5000
+SAVEHIST=5000
 HISTFILE=~/.zsh_history
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_DUPS

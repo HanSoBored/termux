@@ -3,4 +3,13 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # ---- PATH ----
-export PATH="$HOME/.local/bin:$PATH"
+# Bun lives in ~/.bun/bin but is reached via symlinks in ~/.local/bin
+# (bun, bunx) so no BUN_INSTALL export is needed.
+#
+# typeset -U path: zsh auto-dedupes $path (tied to $PATH) on every assignment,
+# so re-sourcing this file never stacks duplicate entries.
+typeset -U path
+path=(
+  "$HOME/.local/bin"
+  $path
+)
